@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tailwind CSS</title>
+    <link rel="stylesheet" href="tailwind.min.css">
+</head>
+<body>
+	<div class="container mx-auto overflow-hidden">
+		<nav class="flex justify-between items-center my-8 mx-10">			
+			<img src="./image/logo.png" class="w-32 rounded-full cursor-pointer">
+			<div class="hidden text-2sm space-x-4 md:flex ">
+				<a href="" class="hover:text-gray-500">Pricing</a>
+				<a href="" class="hover:text-gray-500">Product</a>
+				<a href="" class="hover:text-gray-500">About Us</a>			
+				<a href="" class="hover:text-gray-500">Up Works</a>
+				<a href="" class="hover:text-gray-500">Experience</a>
+			</div>
+			<a href="" class="hidden bg-red-600 rounded-full px-2 p-1 text-white hover:bg-red-500 md:flex">GET STARTED</a>
+			<img src="./image/menu.png" class="w-8 md:hidden cursor-pointer" id="menu">
+			
+		</nav> 
+		<div class="md:hidden" >
+			<div id="menu-item" class="relative flex-col items-center self-end py-3 hidden mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+				<a href="" class="hover:text-gray-500">Pricing</a>
+				<a href="" class="hover:text-gray-500">Product</a>
+				<a href="" class="hover:text-gray-500">About Us</a>		
+				<a href="" class="hover:text-gray-500">Up Works</a>
+				<a href="" class="hover:text-gray-500">Experience</a>
+			</div>
+		</div>
+		<div class="flex flex-col-reverse justify-between gap-6 flex-row mx-8 mt-12 md:flex-row">
+			<div class="md:w-1/2 md:pr-16">
+				<h1 class="font-bold text-xl text-center space-x-12 md:leading-1 md:text-3xl md:text-left">
+					Bring everyone together to build better products
+				</h1>
+				<p class="mt-4 md:mt-8 text-center md:text-left">
+					Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+				</p>
+				<button class="mt-12 bg-red-600 rounded-full px-2 p-1 flex mx-auto my-auto text-white hover:bg-red-500">GET STARTED</button>
+			</div>
+			<div class="md:w-1/2 sm:mt-0 ">
+				<img src="./image/meme2.jpeg" class="rounded w-screen h-56">
+			</div>
+		</div>
+		<div class="flex justify-between gap-8 flex-col mx-8 mt-12 md:flex-row">
+			<div class="w-full md:w-1/2">
+				<h1 class="font-bold text-center text-3xl md:text-4xl md:text-left ">
+					What's different about Manage?
+				</h1>
+				<p class="mt-8 text-center md:pr-16">
+					Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+				</p>
+
+			</div>
+			<div class="md:w-1/2">
+				<div class="flex items-center gap-4">
+					<span class="bg-red-600 rounded-full text-white px-2 p-2">01</span>
+					<h3 class="font-bold text-xl md:text-2xl">Track company-wide progress</h3>
+				</div>
+				<p class="mt-2 pl-12 text-justify">
+					Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+				</p>
+				
+				<div class="flex items-center gap-4 mt-6">
+					<span class="bg-red-600 rounded-full text-white px-2 p-2">02</span>
+					<h3 class="font-bold text-xl md:text-2xl">Advanced built in report</h3>
+				</div>
+				<p class="mt-2 pl-12 text-justify">
+					Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+				</p>
+				<div class="flex items-center gap-4 mt-6">
+					<span class="bg-red-600 rounded-full text-white px-2 p-2">03</span>
+					<h3 class="font-bold text-xl md:text-2xl">Everything you need in one place</h3>
+				</div>
+				<p class="mt-2 pl-12 text-justify">
+					Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="mt-8 md:mt-12 mx-8">
+			<h1 class="font-bold text-3xl text-center mb-8 md:m-8">What's Different About Manage?</h1>
+			<div class="grid md:grid-cols-3 gap-4">
+				<div class="col-span-1">
+					<img src="./image/course2.jpg" class="rounded-md w-full">
+					<h3 class="font-bold p-2 text-xl md:text-3xl">Slice Recipe</h3>
+					<p class="mt-4 text-center md:pr-8 md:text-justify">
+						Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+					</p>
+				</div>
+				<div  class="col-span-1">
+					<img src="./image/course3.jpg" class="rounded-md w-full">
+					<h3 class="font-bold p-2 text-xl md:text-3xl">Guiter Played</h3>
+					<p class="mt-4 text-center md:pr-8 md:text-justify">
+						Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+					</p>
+				</div>
+				<div  class="col-span-1">
+					<img src="./image/course4.jpg" class="rounded-md w-full">
+					<h3 class="font-bold p-2 text-xl md:text-3xl">Decoration</h3>
+					<p class="mt-4 text-center md:pr-8 md:text-justify">
+						Manage Makes it simple for software learns a plan day by day tasks while keeping the largest team goals in view
+					</p>
+				</div>
+			</div>
+			<button class="flex mt-12 bg-red-600 hover:bg-red-500 rounded-full px-2 p-1 text-white mx-auto my-auto">
+				GET STARTED
+			</button>
+		</div>
+	</div>
+	<div class="bg-red-600 text-white mt-10 flex flex-col items-center justify-between md:h-32 md:flex-row">
+			<h1 class="font-bold text-center mt-12 mx-8 text-4xl md:mt-2 md:w-1/2 md:text-left">Simplify how your team works today</h1>
+			<div class="mx-20 my-20">
+				<button type="submit" class="bg-red-100 rounded-full px-2 p-1 text-red-500 hover:bg-gray-300">GET STARTED</button>
+			</div>
+		</div>
+		<div class="bg-black flex flex-col-reverse pb-12 items-center text-white h-60 md:grid md:grid-cols-3">
+			<div class="mt-10 md:mt-20 ">
+				<nav class="flex items-center mx-10">	
+					<img src="./image/logo.png" class="w-20 cursor-pointer rounded-full md:w-32">
+				</nav>
+				<img src="./image/social.png" class="w-20 cursor-pointer mx-10 rounded-full bg-white p-1 md:mt-24 md:w-32">
+			</div>
+			<div class="grid grid-cols-2 gap-16 mt-10 md:mt-20">
+				<div class="text-2sm list-none space-y-4">
+					<li><a href="" class="">Home</a></li>
+					<li><a href="" class="">Pricing</a></li>
+					<li><a href="">About Us</a></li>			
+					<li><a href="">Product</a></li>
+				</div>
+				<div class="text-2sm list-none space-y-4">
+					<li><a href="">Up Works</a></li>
+					<li><a href="">Experience</a></li>
+				</div>
+			</div>
+			<div class="mt-12 md:mt-0">
+				<input type="text" class="rounded-full px-2 p-1 md:w-32 lg:w-48" placeholder="Search....">
+				<button type="submit" class="bg-red-500 rounded-full px-1 p-1 text-white w-10">Go</button>
+			</div>
+		</div>
+		<footer class="bg-black text-white text-center py-3 font-bold">
+			&copy 2023 All Right Reserved. devAdam
+		</footer>
+
+		<script type="text/javascript">
+			const btn = document.getElementById("menu"),
+				menu = document.querySelector("#menu-item")
+			btn.addEventListener("click", function () {
+				menu.classList.toggle("flex")
+				menu.classList.toggle("hidden")
+
+				// console.log(menu)
+			})
+		</script>
+
+</body>
+</html>
